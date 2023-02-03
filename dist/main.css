@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Impostazioni generali */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000c92;
+  color: rgb(80, 100, 255);
+}
+
+/* Titoli */
+h1, h2, h3 {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Link */
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+/* Immagini */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Contenuti */
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1rem;
+  background-color: transparent;
+}
+
+/* Navbar links */
+.navbar a {
+  color: rgb(80, 100, 255);
+  margin-right: .5rem;
+  font-size: 1rem;
+}
+
+/* Active link */
+.navbar a.active {
+  border-bottom: 2px solid #000;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  cursor:default;
+  color: rgb(255, 255, 255);
+}
+
+/* Box di contenuto */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Effetto hover */
+.card:hover {
+  box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+
+
